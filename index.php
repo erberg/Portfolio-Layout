@@ -1,277 +1,76 @@
 <!doctype html>
-<html lang="en">
-
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8" />
-	<title>The 1140px Grid &middot; Fluid down to mobile</title>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	<!-- 1140px Grid styles for IE -->
-	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Your Page Title Here :)</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-	<!-- The 1140px Grid - http://cssgrid.net/ -->
-	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
-	
-	<!-- Your styles -->
-	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
-	
-	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
-	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
-	
-	<!--Delete embedded styles, just for example.-->
-	<style type="text/css">
-	
-	body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	}
-	
-	.container p {
-	color: #fff;
-	line-height: 100px;
-	background: #000;
-	text-align: center;
-	margin: 20px 0 0 0;
-	}
-	
-	</style>
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
 </head>
-
-
 <body>
 
-<div class="container">
-	<div class="row">
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol last">
-			<p>One</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol last">
-			<p>Two columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="threecol last">
-			<p>Three columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="fourcol">
-			<p>Four columns</p>
-		</div>
-		<div class="fourcol">
-			<p>Four columns</p>
-		</div>
-		<div class="fourcol last">
-			<p>Four columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="elevencol last">
-			<p>Eleven columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="tencol last">
-			<p>Ten columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="ninecol last">
-			<p>Nine columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="fourcol">
-			<p>Four columns</p>
-		</div>
-		<div class="eightcol last">
-			<p>Eight columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="fivecol">
-			<p>Five columns</p>
-		</div>
-		<div class="sevencol last">
-			<p>Seven columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="sixcol">
-			<p>Six columns</p>
-		</div>
-		<div class="sixcol last">
-			<p>Six columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="sevencol">
-			<p>Seven columns</p>
-		</div>
-		<div class="fivecol last">
-			<p>Five columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="eightcol">
-			<p>Eight columns</p>
-		</div>
-		<div class="fourcol last">
-			<p>Four columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="ninecol">
-			<p>Nine columns</p>
-		</div>
-		<div class="threecol last">
-			<p>Three columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="tencol">
-			<p>Ten columns</p>
-		</div>
-		<div class="twocol last">
-			<p>Two columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="elevencol">
-			<p>Eleven columns</p>
-		</div>
-		<div class="onecol last">
-			<p>One</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="sixcol">
-			<p>Six columns</p>
-		</div>
-		<div class="threecol last">
-			<p>Three columns</p>
-		</div>
-	</div>
-</div>
 
 
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+	<div class="container">
+		<div class="sixteen columns">
+			<h1 class="remove-bottom" style="margin-top: 40px">Skeleton</h1>
+			<h5>Version 1.2</h5>
+			<hr />
+		</div>
+		<div class="one-third column">
+			<h3>About Skeleton?</h3>
+			<p>Skeleton is a small collection of well-organized CSS files that can help you rapidly develop sites that look beautiful at any size, be it a 17" laptop screen or an iPhone. It's based on a responsive grid, but also provides very basic CSS for typography, buttons, forms and media queries. Go ahead, resize this super basic page to see the grid in action.</p>
+		</div>
+		<div class="one-third column">
+			<h3>Three Core Principles</h3>
+			<p>Skeleton is built on three core principles:</p>
+			<ul class="square">
+				<li><strong>A Responsive Grid Down To Mobile</strong>: Elegant scaling from a browser to tablets to mobile.</li>
+				<li><strong>Fast to Start</strong>: It's a tool for rapid development with best practices</li>
+				<li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten.</li>
+			</ul>
+		</div>
+		<div class="one-third column">
+			<h3>Docs &amp; Support</h3>
+			<p>The easiest way to really get started with Skeleton is to check out the full docs and info at <a href="http://www.getskeleton.com">www.getskeleton.com.</a>. Skeleton is also open-source and has a <a href="https://github.com/dhgamache/skeleton">project on git</a>, so check that out if you want to report bugs or create a pull request. If you have any questions, thoughts, concerns or feedback, please don't hesitate to email me at <a href="mailto:hi@getskeleton.com">hi@getskeleton.com</a>.</p>
+		</div>
+
+	</div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
 </body>
-
 </html>
