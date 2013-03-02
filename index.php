@@ -3,6 +3,10 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+
 <head>
 
 	<!-- Basic Page Needs
@@ -42,6 +46,23 @@
 	================================================== -->
 
 	<!-- Delete everything in this .container and get started on your own site! -->
+
+	<div class="header">
+		<div class="container">
+		<div class="sixteen columns">
+		<div class="logo" style="background-image:url('images/logo.png');width:72px;height:86px;margin-top:62px;float:left;margin-right:10px;"></div>
+		<h1 style="margin-top: 85px;float:left;"> ERIC BERG </h1>
+		<h2 style="margin-top: 110px;letter-spacing: 1px;"><span style="margin:10px 10px;">//</span>web developer</h2> 
+		</div>
+		</div>
+	</div>
+
+	<div class="navbar">
+		<div class="container">
+		<div class="sixteen columns">
+		</div>
+		</div>
+	</div>
 
 	<div class="container">
 		<div class="sixteen columns">
