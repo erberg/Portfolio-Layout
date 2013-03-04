@@ -4,7 +4,7 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800,400italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 
 <head>
@@ -12,7 +12,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Your Page Title Here :)</title>
+	<title>Eric Berg // Web Developer</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -50,9 +50,9 @@
 	<div class="header">
 		<div class="container">
 		<div class="sixteen columns">
-		<div class="logo" style="background-image:url('images/logo.png');width:72px;height:86px;margin-top:62px;float:left;margin-right:10px;"></div>
-		<h1 style="margin-top: 85px;float:left;"> ERIC BERG </h1>
-		<h2 style="margin-top: 110px;letter-spacing: 1px;"><span style="margin:10px 10px;">//</span>web developer</h2> 
+		<div class="logo" style="background-image:url('images/logo.png');width:72px;height:86px;margin-top:52px;float:left;margin-left: 5px;margin-right:25px;"></div>
+		<h1 style="margin-top: 75px;float:left;letter-spacing: 2px;line-height: 50px;"> ERIC BERG </h1>
+		<h2 style="margin-top: 100px;letter-spacing: 1px; float:bottom;"><span style="margin:10px 10px;">//</span>web developer</h2>
 		</div>
 		</div>
 	</div>
@@ -60,37 +60,55 @@
 	<div class="navbar">
 		<div class="container">
 		<div class="sixteen columns">
+		<div style="width:80px;padding-top: 18px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">Home</h3><h4>sweet home</h4>
+		<div style="background-image:url('/images/nav-selection.png');background-repeat:no-repeat;height:15px;width:100%;bottom:-20px;left:35px;position:absolute;z-index:-1;"></div>
+		</div>
+		<div class="navbar-separator" style="margin-left:24px;margin-right:34px;"></div>
+		<div style="width:80px;padding-top: 18px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">Technology</h3><h4>to-do list</h4></div>
+		<div class="navbar-separator" style="margin-left:34px;margin-right:18px;"></div>
+		<div style="width:80px;padding-top: 18px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">About</h3><h4>me</h4></div>
+		<div class="navbar-separator" style="margin-left:18px;margin-right:26px;"></div>
+		<div style="width:80px;padding-top: 18px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">Contact</h3><h4>by email</h4></div>
 		</div>
 		</div>
 	</div>
 
+
 	<div class="container">
 		<div class="sixteen columns">
-			<h1 class="remove-bottom" style="margin-top: 40px">Skeleton</h1>
-			<h5>Version 1.2</h5>
-			<hr />
+			<h5 style="margin-top: 60px;margin-bottom: 60px;letter-spacing: .2px; line-height:28px;">Hello! </br> 
+				<span style="margin-left: 35px;">I’m a programmer living in Seattle, Washington. I love to code, and I’m always excited to improve my skills and work with new technology. Below are some of my most recent projects.
+				</span>
+			</h5>
 		</div>
-		<div class="one-third column">
-			<h3>About Skeleton?</h3>
-			<p>Skeleton is a small collection of well-organized CSS files that can help you rapidly develop sites that look beautiful at any size, be it a 17" laptop screen or an iPhone. It's based on a responsive grid, but also provides very basic CSS for typography, buttons, forms and media queries. Go ahead, resize this super basic page to see the grid in action.</p>
+	</div>
+	<div class="container" style="margin-bottom:60px;">
+	<div class="one-third column" style="background-image:url('/images/blackjack.jpg');height:200px;"></div>
+	<div class="one-third column" style="background-image:url('/images/blackjack.jpg');height:200px;"></div>
+	<div class="one-third column" style="background-image:url('/images/blackjack.jpg');height:200px;"></div>
+	</div>
+
+	<div class="container">
+		<div class="sixteen columns">
+			<h1 style="font-size: 22px;">Blackjack</h1>
+			<h4 style="color: #322725; style:italic;font-size: 14px;line-height:20px;margin-bottom:2px;">
+			<span style="margin: 5px;">multiplayer game in javascript</span>
+			</h4>
 		</div>
-		<div class="one-third column">
-			<h3>Three Core Principles</h3>
-			<p>Skeleton is built on three core principles:</p>
-			<ul class="square">
-				<li><strong>A Responsive Grid Down To Mobile</strong>: Elegant scaling from a browser to tablets to mobile.</li>
-				<li><strong>Fast to Start</strong>: It's a tool for rapid development with best practices</li>
-				<li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten.</li>
-			</ul>
+
+		<div class="eight columns"><div style="background-image:url('/images/blackjack.jpg');height:230px;background-repeat:no-repeat;"></div></div>
+
+		<div class="eight columns">
+			<p>I thought blackjack would be fun to make because it’s a classic that just about everyone knows how to play. It turned out to be very rewarding project, as well as a great way to learn some new and interesting technologies.</p>
+		    <p>The game has positions for up to six players, and there is a card counting button as a bonus feature. You can turn the odds in your favor by modifying your play based upon the count. The live site and source code are also available, if you’re into that sort of thing.</p>
 		</div>
-		<div class="one-third column">
-			<h3>Docs &amp; Support</h3>
-			<p>The easiest way to really get started with Skeleton is to check out the full docs and info at <a href="http://www.getskeleton.com">www.getskeleton.com.</a>. Skeleton is also open-source and has a <a href="https://github.com/dhgamache/skeleton">project on git</a>, so check that out if you want to report bugs or create a pull request. If you have any questions, thoughts, concerns or feedback, please don't hesitate to email me at <a href="mailto:hi@getskeleton.com">hi@getskeleton.com</a>.</p>
-		</div>
+				<div class="two columns"><ul ><li>jQuery</li></ul></div>
+		<div class="two columns"><ul ><li>Node.js</li></ul></div>
+		<div class="two columns"><ul ><li>Socket.io</li></ul></div>
+		<div class="two columns"><ul ><li>Twitter Bootstrap</li></ul></div>
+
 
 	</div><!-- container -->
-
-
 <!-- End Document
 ================================================== -->
 </body>

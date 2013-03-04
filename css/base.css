@@ -52,11 +52,25 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		background-image:url('/images/debut_light.png');
+		/*font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+		font-family: 'Open Sans', serif; font-size: 15px; line-height:22px;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
+ 	.navbar-separator {
+		width:1px;
+		height:25px;
+		margin-top: 20px;
+		float:left;
+		background-image: url('/images/nav-separator.gif');
+		background-color: blue;
+ 	}
+
+ 	.title {
+
+ 	}
 
 
 /* #Typography
@@ -66,12 +80,12 @@
 		font-family: "Georgia", "Times New Roman", serif;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-	h1 { font-family: 'Open Sans', sans-serif; font-size: 40px; line-height: 50px; margin-bottom: 14px;font-weight: 800;}
-	h2 { font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: italic; }
-	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
-	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
-	h5 { font-size: 17px; line-height: 24px; }
-	h6 { font-size: 14px; line-height: 21px; }
+	h1 { font-family: 'Open Sans', sans-serif; font-size: 40px;font-weight: 800;}
+	h2 { font-family: 'Open Sans', sans-serif; font-size: 16px; font-style: italic; }
+	h3 { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 600; color: white; line-height:16px; }
+	h4 { font-family: 'Open Sans', sans-serif; font-size: 13px; font-weight: 400; font-style: italic; color: white;line-height:14px;color: #d7d7d7; }
+	h5 { font-family: 'Merriweather', serif; font-size: 22px; color: #322725; }
+	h6 { font-size: 14px; line-height: 24px; }
 	.subheader { color: #777; }
 
 	p { margin: 0 0 20px 0; }
