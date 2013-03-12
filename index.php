@@ -123,12 +123,12 @@
 			</h4>
 		</div>
 	<div class="four columns">
-	<p>I've always been a fascinated by how this simple set of procedures can create so much complexity. The rules create a delicate balance between life and death, and the result is an eco-system simulation in which complex patterns interact, grow, and die. More importantly I saw it as an opportunity to play god.</p>
+	<p>I've always been a fascinated by how this simple set of procedures can create so much complexity. The rules create a delicate balance between life and death, and the result is an eco-system simulation in which complex patterns interact, grow, and die. Besides, who's going to pass up such a great opportunity to play god? </p>
 		    <p>Alas, my simulated world is a cruel one. After about 6000 generations it's a pretty desolate universe; populated by just a few spasming pixels. Sorry little guys.</p>
 	</div>
 		<div class="seven columns"><div style="background-image:url('/images/gameoflife.jpg');height:230px;background-repeat:no-repeat;background-position: 0px -45px;margin-bottom:20px;"></div></div>
 
-		<div class="two columns"><ul class="square" style="width:100%;float:left;"><li>PHP</li><li>Javascript</li><li>jQuery</li><li>MVC</li></ul></div>
+		<div class="two columns"><ul class="square" style="width:100%;float:left;"><li>PHP</li><li>Javascript</li><li>jQuery</li><li>Twitter Bootstrap</li></ul></div>
 		</div><!-- container -->
 
 
@@ -141,12 +141,12 @@
 			</h4>
 		</div>
 <div class="five columns">
-			<p>I thought blackjack would be fun to make because it’s a classic that just about everyone knows how to play. It turned out to be very rewarding project, as well as a great way to learn some new and interesting technologies.</p>
-		    <p>The game has positions for up to six players, and there is a card counting button as a bonus feature. You can turn the odds in your favor by modifying your play based upon the count. The live site and source code are also available, if you’re into that sort of thing.</p>
+			<p>Sometimes I paint in my spare time. For a time, I was contemplating the idea of starting a business producing and selling abstract paintings. Though I eventually realized that production-style art might actually be the least appealing avenue for my creativity, the experience drove me to create a full Joomla! website.</p>
+			<p>My time on this project was split evenly between front-end template design, modifying the Joomla! content management system to suit my needs, and writing articles about art.</p>
 		</div>
-		<div class="six columns"><div style="background-image:url('/images/folio.jpg');height:230px;background-repeat:no-repeat;background-size: cover;margin-bottom:20px;"></div></div>
+		<div class="six columns"><div style="background-image:url('/images/aura.jpg');height:230px;background-repeat:no-repeat;background-size: cover;margin-bottom:20px;"></div></div>
 
-		<div class="two columns"><ul class="square" style="width:100%;float:left;"><li>PHP</li><li>Javascript</li><li>jQuery</li><li>MVC</li></ul></div>
+		<div class="two columns"><ul class="square" style="width:100%;float:left;"><li>PHP</li><li>Joomla! CMS</li><li>MVC</li></ul></div>
 		</div><!-- container -->
 <!-- End Document
 ================================================== -->
