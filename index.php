@@ -107,11 +107,11 @@
 			<span style="margin: 5px;">game using HTML5</span>
 			</h4>
 		</div>
-		<div class="seven columns">
+		<div class="five columns">
 			<p>I thought blackjack would be fun to make because it’s a classic that just about everyone knows how to play. It turned out to be very rewarding project, as well as a great way to learn some new and interesting technologies.</p>
 		    <p>The game has positions for up to six players, and there is a card counting button as a bonus feature. You can turn the odds in your favor by modifying your play based upon the count. The live site and source code are also available, if you’re into that sort of thing.</p>
 		</div>
-		<div class="four columns "><div style="background-image:url('/images/blackjack.jpg');height:200px;background-repeat:no-repeat;background-position:-200px 0px;margin-bottom:20px;"></div></div>
+		<div class="six columns "><div style="background-image:url('/images/blackjack.jpg');height:200px;background-repeat:no-repeat;background-position:-200px 0px;margin-bottom:20px;"></div></div>
 		<div class="two columns"><ul class="square" style="width:100%;float:left;"><li>jQuery</li><li>Node.js</li><li>Socket.io</li><li>Twitter Bootstrap</li></ul></div>
 		</div><!-- container -->
 
@@ -122,7 +122,7 @@
 			<span style="margin: 5px;">classic in web-application format</span>
 			</h4>
 		</div>
-	<div class="four columns">
+	<div class="six columns">
 	<p>I've always been a fascinated by how this simple set of procedures can create so much complexity. The rules create a delicate balance between life and death, and the result is an eco-system simulation in which complex patterns interact, grow, and die. Besides, who's going to pass up such a great opportunity to play god? </p>
 		    <p>Alas, my simulated world is a cruel one. After about 6000 generations it's a pretty desolate universe; populated by just a few spasming pixels. Sorry little guys.</p>
 	</div>
