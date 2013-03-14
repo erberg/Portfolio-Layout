@@ -1,4 +1,5 @@
 <!doctype html>
+
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -52,7 +53,7 @@
 		<div class="sixteen columns">
 		<div class="logo" style="background-image:url('images/logo.png');width:72px;height:86px;margin-top:52px;float:left;margin-left: 5px;margin-right:25px;"></div>
 		<h1 style="margin-top: 75px;float:left;letter-spacing: 2px;line-height: 50px;"> ERIC BERG </h1>
-		<h2 style="margin-top: 100px;letter-spacing: 1px; float:bottom;"><span style="margin:10px 10px;">//</span>web developer</h2>
+		<h2 style="margin-top: 100px;letter-spacing: 1px;"><span style="margin:10px 10px;">//</span>web developer</h2>
 		</div>
 		</div>
 	</div>
@@ -87,7 +88,7 @@
 	<div class="container" style="margin-bottom:60px;">
 		<div class="three columns">
 			<h1 style="font-size: 22px;">Artist Portfolio</h1>
-			<h4 style="color: #322725; style:italic;font-size: 14px;line-height:20px;margin-bottom:2px;">
+			<h4 style="color: #322725; font-style:italic;font-size: 14px;line-height:20px;margin-bottom:2px;">
 			<span style="margin: 5px;">big-picture website</span>
 			</h4>
 		</div>
@@ -103,7 +104,7 @@
 		<div class="container" style="margin-bottom:80px;">
 		<div class="three columns">
 			<h1 style="font-size: 22px;">Blackjack</h1>
-			<h4 style="color: #322725; style:italic;font-size: 14px;line-height:20px;margin-bottom:2px;">
+			<h4 style="color: #322725; font-style:italic;font-size: 14px;line-height:20px;margin-bottom:2px;">
 			<span style="margin: 5px;">game using HTML5</span>
 			</h4>
 		</div>
@@ -118,7 +119,7 @@
 		<div class="container" style="margin-bottom:60px;">
 		<div class="three columns">
 			<h1 style="font-size: 22px;">Conway's Game of Life</h1>
-			<h4 style="color: #322725; style:italic;font-size: 14px;line-height:20px;margin-bottom:2px;">
+			<h4 style="color: #322725; font-style:italic;font-size: 14px;line-height:20px;margin-bottom:2px;">
 			<span style="margin: 5px;">classic in web-application format</span>
 			</h4>
 		</div>
@@ -136,7 +137,7 @@
 	<div class="container" style="margin-bottom:60px;">
 		<div class="three columns">
 			<h1 style="font-size: 22px;">Art E-commerce Site</h1>
-			<h4 style="color: #322725; style:italic;font-size: 14px;line-height:20px;margin-bottom:2px;">
+			<h4 style="color: #322725; font-style:italic;font-size: 14px;line-height:20px;margin-bottom:2px;">
 			<span style="margin: 5px;">art website</span>
 			</h4>
 		</div>
