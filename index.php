@@ -120,7 +120,7 @@
 		<div class="three columns">
 			<h1 style="font-size: 22px;">Conway's Game of Life</h1>
 			<h4 style="color: #322725; font-style:italic;font-size: 14px;line-height:20px;margin-bottom:2px;">
-			<span style="margin: 5px;">classic in web-application format</span>
+			<span style="margin: 5px;">classic brought to the browser</span>
 			</h4>
 		</div>
 	<div class="six columns">
