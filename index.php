@@ -49,11 +49,13 @@
 	<!-- Delete everything in this .container and get started on your own site! -->
 
 	<div class="header">
-		<div class="container">
+		<script type="text/javascript" src="js/underscore.js"></script>
+		<script type="text/javascript" src="js/backbone.js"></script>
 		<div class="sixteen columns">
-		<div class="logo" style="background-image:url('images/logo.png');width:72px;height:86px;margin-top:52px;float:left;margin-left: 5px;margin-right:25px;"></div>
-		<h1 style="margin-top: 75px;float:left;letter-spacing: 2px;line-height: 50px;"> ERIC BERG </h1>
-		<h2 style="margin-top: 100px;letter-spacing: 1px;"><span style="margin:10px 10px;">//</span>web developer</h2>
+		<div class="container">
+		<div class="logo" style="margin-top:52px;float:left;margin-left: 5px;margin-right:25px;"><img src='images/logo.png' width='72px' height='86px'/></div>
+		<div style="float:left;"><h1 id="myname" style="letter-spacing: 2px;"> ERIC BERG </h1></div>
+		<div style="float:left;"><h2 id="tagline" style="letter-spacing: 1px;"><span style="margin:0px 10px;">//</span>web developer</h2></div>
 		</div>
 		</div>
 	</div>
