@@ -55,7 +55,7 @@
 		<div class="container">
 		<div class="logo" style="margin-top:52px;float:left;margin-left: 5px;margin-right:25px;"><img src='images/logo.png' width='72px' height='86px'/></div>
 		<div style="float:left;"><h1 id="myname" style="letter-spacing: 2px;"> ERIC BERG </h1></div>
-		<div style="float:left;"><h2 id="tagline" style="letter-spacing: 1px;"><span style="margin:0px 10px;">//</span>web developer</h2></div>
+		<div style="float:left;"><h2 id="tagline" style="letter-spacing: .05em;"><span style="margin:0px 10px;">//</span>web developer</h2></div>
 		</div>
 		</div>
 	</div>
@@ -63,15 +63,15 @@
 	<div class="navbar">
 		<div class="container">
 		<div class="sixteen columns">
-		<div style="width:80px;padding-top: 18px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">Home</h3><h4>sweet home</h4>
+		<div style="width:80px;padding-top: 16px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">Home</h3><h4 style="letter-spacing: .05em;padding-top: 2px">sweet home</h4>
 		<div style="background-image:url('/images/nav-selection.png');background-repeat:no-repeat;height:15px;width:100px;bottom:-20px;left:35px;position:absolute;z-index:-1;"></div>
 		</div>
 		<div class="navbar-separator" style="margin-left:24px;margin-right:34px;"></div>
-		<div style="width:80px;padding-top: 18px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">Technology</h3><h4>to-do list</h4></div>
+		<div style="width:100px;padding-top: 16px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">Technology</h3><h4 style="letter-spacing: .05em;padding-top: 2px">to-do list</h4></div>
 		<div class="navbar-separator" style="margin-left:34px;margin-right:18px;"></div>
-		<div style="width:80px;padding-top: 18px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">About</h3><h4>me</h4></div>
+		<div style="width:80px;padding-top: 16px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">About</h3><h4 style="letter-spacing: .05em;padding-top: 2px">me</h4></div>
 		<div class="navbar-separator" style="margin-left:18px;margin-right:26px;"></div>
-		<div style="width:80px;padding-top: 18px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">Contact</h3><h4>by email</h4></div>
+		<div style="width:80px;padding-top: 16px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">Contact</h3><h4 style="letter-spacing: .05em;padding-top: 2px">by email</h4></div>
 		</div>
 		</div>
 	</div>
