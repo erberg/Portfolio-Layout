@@ -14,8 +14,8 @@
   ================================================== -->
 	<meta charset="utf-8">
 	<title>Eric Berg // Web Developer</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="This is the professional site of Eric Berg, where you can find out what he's been workin on lately.">
+	<meta name="author" content="Eric Berg">
 
 	<!-- Mobile Specific Metas
   ================================================== -->
@@ -49,8 +49,6 @@
 	<!-- Delete everything in this .container and get started on your own site! -->
 
 	<div class="header">
-		<script type="text/javascript" src="js/underscore.js"></script>
-		<script type="text/javascript" src="js/backbone.js"></script>
 		<div class="sixteen columns">
 		<div class="container">
 		<div class="logo" style="margin-top:52px;float:left;margin-left: 5px;margin-right:25px;"><img src='images/logo.png' width='72px' height='86px'/></div>
@@ -96,7 +94,7 @@
 		</div>
 	<div class="six columns">
 			<p>It's good to be bold. Yes, it takes some confidence to put your images up in large format for all of the internet to see... but I definitely think the payoff is worth it. This is a website I created for just that purpose: to display images as large as possible.</p>
-		    <p>On the more technical side of things, I used this project as an opportunity get a better understanding of how the model-view-controller (MVC) pattern works. There's no better way to understand something than by building it from scratch, and after having completed this project I'm feeling confident about using MVC's.</p>
+		    <p>On the more technical side of things, I used this project as an opportunity get a better understanding of the model-view-controller (MVC) pattern. There's no better way to understand something than by building it from scratch, and after having completed this project I'm feeling much more knowledgable about the inner workings of MVC's.</p>
 	</div>
 		<div class="seven columns"><div style="background-image:url('/images/folio.jpg');height:230px;background-repeat:no-repeat;background-size: cover;margin-bottom:20px;"></div></div>
 
@@ -114,8 +112,8 @@
 			<p>I thought blackjack would be fun to make because it’s a classic that just about everyone knows how to play. It turned out to be very rewarding project, as well as a great way to learn some new and interesting technologies.</p>
 		    <p>The game has positions for up to six players, and there is a card counting button as a bonus feature. You can turn the odds in your favor by modifying your play based upon the count. The live site and source code are also available, if you’re into that sort of thing.</p>
 		</div>
-		<div class="six columns "><div style="background-image:url('/images/blackjack.jpg');height:200px;background-repeat:no-repeat;background-position:-200px 0px;margin-bottom:20px;"></div></div>
-		<div class="two columns"><ul class="square" style="width:100%;float:left;"><li>jQuery</li><li>Node.js</li><li>Socket.io</li><li>Twitter Bootstrap</li></ul></div>
+		<div class="six columns"><div style="margin-bottom:20px;"><img src="/images/blackjack.jpg" width="100%"/></div></div>
+		<div class="two columns"><ul class="square" style="float:left;"><li>jQuery</li><li>Node.js</li><li>Socket.io</li><li>Twitter Bootstrap</li></ul></div>
 		</div><!-- container -->
 
 		<div class="container" style="margin-bottom:60px;">
@@ -143,15 +141,16 @@
 			<span style="margin: 5px;">art website</span>
 			</h4>
 		</div>
-<div class="five columns">
+	<div class="five columns">
 			<p>Sometimes I paint in my spare time. For a time, I was contemplating the idea of starting a business producing and selling abstract paintings. Though I eventually realized that production-style art might actually be the least appealing avenue for my creativity, the experience drove me to create a full Joomla! website.</p>
 			<p>My time on this project was split evenly between front-end template design, modifying the Joomla! content management system to suit my needs, and writing articles about art.</p>
 		</div>
-		<div class="six columns"><div style="background-image:url('/images/aura.jpg');height:230px;background-repeat:no-repeat;background-size: cover;margin-bottom:20px;"></div></div>
+		<div class="six columns"><div style="margin-bottom:20px;"><img src="/images/aura.jpg" width="100%"/></div></div>
 
 		<div class="two columns"><ul class="square" style="width:100%;float:left;"><li>PHP</li><li>Joomla! CMS</li><li>MVC</li></ul></div>
 		</div><!-- container -->
-<!-- End Document
-================================================== -->
+	<script type="text/javascript" src="js/underscore.js"></script>
+	<script type="text/javascript" src="js/backbone.js"></script>
+<!-- End Document ================================================== -->
 </body>
 </html>
