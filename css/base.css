@@ -58,7 +58,11 @@
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
- }
+ 	}
+
+/* #Added Styles
+================================================== */
+
  	.navbar-separator {
 		width:1px;
 		height:25px;
@@ -67,6 +71,7 @@
 		background-image: url('/images/nav-separator.gif');
 		background-color: blue;
  	}
+
  	.article-title { font-size: 22px; margin-bottom:2px; }
  	.article-sub { color: #322725; font-style:italic; font-size: 14px; line-height:20px; margin-left: 5px;}
  	.navbar-link { width:80px; padding-top: 16px; text-align: center; float:left;  }
