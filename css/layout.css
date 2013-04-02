@@ -17,6 +17,48 @@
 /* #Site Styles
 ================================================== */
 
+ 	.navbar-separator {
+		width:1px;
+		height:25px;
+		margin-top: 20px;
+		float:left;
+		background-image: url('/images/nav-separator.gif');
+		background-color: blue;
+ 	}
+
+ 	.article-title { font-size: 22px; margin-bottom:2px; }
+ 	.article-sub { color: #322725; font-style:italic; font-size: 14px; line-height:20px; margin-left: 5px;}
+ 	.navbar-link { width:80px; padding-top: 16px; text-align: center; float:left;  }
+	.navbar-sub {letter-spacing: .05em;padding-top: 2px;}
+	.leftfloat { float: left; }
+ 	#tagline { margin-top: 98px; letter-spacing: .05em;}
+	#myname { margin-top: 90px; }
+	#logo { 
+		margin-top:52px;
+		float:left;
+		margin-left: 5px;
+		margin-right:25px;
+	}
+	#myname { letter-spacing: 2px; }
+	#greeting-header {
+		margin-top: 60px;
+		margin-bottom: 90px;
+		letter-spacing: .2px;
+		line-height:28px;
+	}
+	#greeting-sub { margin-left: 35px; }
+	#nav-selection-image {
+	background-image:url('/images/nav-selection.png');
+	background-repeat:no-repeat;
+	height:15px;
+	width:100px;
+	bottom:-20px;
+	left:35px;
+	position:absolute;
+	z-index:-1;
+	}
+
+
 /* #Page Styles
 ================================================== */
 
