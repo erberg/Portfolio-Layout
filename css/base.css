@@ -67,14 +67,37 @@
 		background-image: url('/images/nav-separator.gif');
 		background-color: blue;
  	}
-
- 	.title {
-
- 	}
-
- 	#tagline { margin-top: 98px; }
+ 	.article-title { font-size: 22px; margin-bottom:2px; }
+ 	.article-sub { color: #322725; font-style:italic; font-size: 14px; line-height:20px; margin-left: 5px;}
+ 	.navbar-link { width:80px; padding-top: 16px; text-align: center; float:left;  }
+	.navbar-sub {letter-spacing: .05em;padding-top: 2px;}
+	.leftfloat { float: left; }
+ 	#tagline { margin-top: 98px; letter-spacing: .05em;}
 	#myname { margin-top: 90px; }
-
+	#logo { 
+		margin-top:52px;
+		float:left;
+		margin-left: 5px;
+		margin-right:25px;
+	}
+	#myname { letter-spacing: 2px; }
+	#greeting-header {
+		margin-top: 60px;
+		margin-bottom: 90px;
+		letter-spacing: .2px;
+		line-height:28px;
+	}
+	#greeting-sub { margin-left: 35px; }
+	#nav-selection-image {
+	background-image:url('/images/nav-selection.png');
+	background-repeat:no-repeat;
+	height:15px;
+	width:100px;
+	bottom:-20px;
+	left:35px;
+	position:absolute;
+	z-index:-1;
+	}
 
 /* #Typography
 ================================================== */
@@ -85,7 +108,7 @@
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-family: 'Open Sans', sans-serif; font-size: 40px;font-weight: 800;}
 	h2 { font-family: 'Open Sans', sans-serif; font-size: 16px; font-style: italic; }
-	h3 { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 600; color: white; line-height:16px; }
+	h3 { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 600; color: white; line-height:16px; letter-spacing: .75px}
 	h4 { font-family: 'Open Sans', sans-serif; font-size: 13px; font-weight: 400; font-style: italic; color: white;line-height:14px;color: #d7d7d7; }
 	h5 { font-family: 'Merriweather', serif; font-size: 22px; color: #322725; }
 	h6 { font-size: 14px; line-height: 24px; }

@@ -51,35 +51,45 @@
 	<div class="header">
 		<div class="sixteen columns">
 		<div class="container">
-		<div class="logo" style="margin-top:52px;float:left;margin-left: 5px;margin-right:25px;"><img src='images/logo.png' width='72px' height='86px'/></div>
-		<div style="float:left;"><h1 id="myname" style="letter-spacing: 2px;"> ERIC BERG </h1></div>
-		<div style="float:left;"><h2 id="tagline" style="letter-spacing: .05em;"><span style="margin:0px 10px;">//</span>web developer</h2></div>
+		<div id="logo"><img src='images/logo.png' width='72px' height='86px'/></div>
+		<div class="leftfloat"><h1 id="myname"> ERIC BERG </h1></div>
+		<div class="leftfloat"><h2 id="tagline"><span style="margin:0px 10px;">//</span>web developer</h2></div>
 		</div>
 		</div>
 	</div>
 
 	<div class="navbar">
 		<div class="container">
-		<div class="sixteen columns">
-		<div style="width:80px;padding-top: 16px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">Home</h3><h4 style="letter-spacing: .05em;padding-top: 2px">sweet home</h4>
-		<div style="background-image:url('/images/nav-selection.png');background-repeat:no-repeat;height:15px;width:100px;bottom:-20px;left:35px;position:absolute;z-index:-1;"></div>
-		</div>
-		<div class="navbar-separator" style="margin-left:24px;margin-right:34px;"></div>
-		<div style="width:100px;padding-top: 16px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">Technology</h3><h4 style="letter-spacing: .05em;padding-top: 2px">to-do list</h4></div>
-		<div class="navbar-separator" style="margin-left:34px;margin-right:18px;"></div>
-		<div style="width:80px;padding-top: 16px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">About</h3><h4 style="letter-spacing: .05em;padding-top: 2px">me</h4></div>
-		<div class="navbar-separator" style="margin-left:18px;margin-right:26px;"></div>
-		<div style="width:80px;padding-top: 16px;text-align: center;float:left;"><h3 style="letter-spacing: .5px;">Contact</h3><h4 style="letter-spacing: .05em;padding-top: 2px">by email</h4></div>
-		</div>
+			<div class="sixteen columns">
+				<div class= "navbar-link">
+					<h3>Home</h3>
+					<h4 class="navbar-sub">sweet home</h4>
+					<div id="nav-selection-image"></div>
+				</div>
+				<div class="navbar-separator" style="margin-left:24px;margin-right:34px;"></div>
+				<div class= "navbar-link" style="width:100px;">
+					<h3>Technology</h3>
+					<h4 class="navbar-sub">to-do list</h4>
+				</div>
+				<div class="navbar-separator" style="margin-left:34px;margin-right:18px;"></div>
+				<div class= "navbar-link">
+					<h3>About</h3>
+					<h4 class="navbar-sub">me</h4>
+				</div>
+				<div class="navbar-separator" style="margin-left:18px;margin-right:26px;"></div>
+				<div class= "navbar-link">
+					<h3>Contact</h3>
+					<h4 class="navbar-sub">by email</h4>
+				</div>
+			</div>
 		</div>
 	</div>
 
 
 	<div class="container">
 		<div class="sixteen columns">
-			<h5 style="margin-top: 60px;margin-bottom: 90px;letter-spacing: .2px; line-height:28px;">Hello! </br> 
-				<span style="margin-left: 35px;">I’m a programmer living in Seattle, Washington. I love to code, and I’m always excited to improve my skills and work with new technology. These are some of my most recent projects.
-				</span>
+			<h5 id="greeting-header">Hello! </br> 
+				<span id="greeting-sub">I’m a software developer living in Seattle, Washington. I love to code, and I’m always excited to improve my skills and work with new technology. These are some of my most recent projects.</span>
 			</h5>
 		</div>
 	</div>
@@ -87,68 +97,60 @@
 
 	<div class="container" style="margin-bottom:60px;">
 		<div class="three columns">
-			<h1 style="font-size: 22px;">Artist Portfolio</h1>
-			<h4 style="color: #322725; font-style:italic;font-size: 14px;line-height:20px;margin-bottom:2px;">
-			<span style="margin: 5px;">big-picture website</span>
-			</h4>
+			<h1 class="article-title">Artist Portfolio</h1>
+			<h4 class="article-sub">big-picture website</h4>
 		</div>
-	<div class="six columns">
+		<div class="six columns">
 			<p>It's good to be bold. Yes, it takes some confidence to put your images up in large format for all of the internet to see... but I definitely think the payoff is worth it. This is a website I created for just that purpose: to display images as large as possible.</p>
 		    <p>On the more technical side of things, I used this project as an opportunity get a better understanding of the model-view-controller (MVC) pattern. There's no better way to understand something than by building it from scratch, and after having completed this project I'm feeling much more knowledgable about the inner workings of MVC's.</p>
-	</div>
-		<div class="seven columns"><div style="background-image:url('/images/folio.jpg');height:230px;background-repeat:no-repeat;background-size: cover;margin-bottom:20px;"></div></div>
+		</div>
+		<div class="seven columns"><div style="margin-bottom:20px;"><img src="/images/folio.jpg" width="100%"/></div></div>
 
-		<div class="two columns"><ul class="square" style="width:100%;float:left;"><li>PHP</li><li>Javascript</li><li>jQuery</li><li>MVC</li><li>MySQL</li></ul></div>
-		</div><!-- container -->
+		<div class="two columns"><ul class="square"><li>PHP</li><li>Javascript</li><li>jQuery</li><li>MVC</li><li>MySQL</li></ul></div>
+	</div><!-- container -->
 
-		<div class="container" style="margin-bottom:80px;">
+	
+	<div class="container" style="margin-bottom:80px;">
 		<div class="three columns">
-			<h1 style="font-size: 22px;">Blackjack</h1>
-			<h4 style="color: #322725; font-style:italic;font-size: 14px;line-height:20px;margin-bottom:2px;">
-			<span style="margin: 5px;">game using HTML5</span>
-			</h4>
+			<h1 class="article-title">Blackjack</h1>
+			<h4 class="article-sub">game using HTML5</h4>
 		</div>
 		<div class="five columns">
 			<p>I thought blackjack would be fun to make because it’s a classic that just about everyone knows how to play. It turned out to be very rewarding project, as well as a great way to learn some new and interesting technologies.</p>
 		    <p>The game has positions for up to six players, and there is a card counting button as a bonus feature. You can turn the odds in your favor by modifying your play based upon the count. The live site and source code are also available, if you’re into that sort of thing.</p>
 		</div>
 		<div class="six columns"><div style="margin-bottom:20px;"><img src="/images/blackjack.jpg" width="100%"/></div></div>
-		<div class="two columns"><ul class="square" style="float:left;"><li>jQuery</li><li>Node.js</li><li>Socket.io</li><li>Twitter Bootstrap</li></ul></div>
+		<div class="two columns"><ul class="square"><li>jQuery</li><li>Node.js</li><li>Socket.io</li><li>Twitter Bootstrap</li></ul></div>
 		</div><!-- container -->
 
 		<div class="container" style="margin-bottom:60px;">
 		<div class="three columns">
-			<h1 style="font-size: 22px;">Conway's Game of Life</h1>
-			<h4 style="color: #322725; font-style:italic;font-size: 14px;line-height:20px;margin-bottom:2px;">
-			<span style="margin: 5px;">classic brought to the browser</span>
-			</h4>
+			<h1 class="article-title">Conway's Game of Life</h1>
+			<h4 class="article-sub">classic brought to the browser</h4>
 		</div>
-	<div class="six columns">
-	<p>I've always been a fascinated by how this simple set of procedures can create so much complexity. The rules create a delicate balance between life and death, and the result is an eco-system simulation in which complex patterns interact, grow, and die. Besides, who's going to pass up such a great opportunity to play god? </p>
-		    <p>Alas, my simulated world is a cruel one. After about 6000 generations it's a pretty desolate universe; populated by just a few spasming pixels. Sorry little guys.</p>
-	</div>
-		<div class="seven columns"><div style="background-image:url('/images/gameoflife.jpg');height:230px;background-repeat:no-repeat;background-position: 0px -45px;margin-bottom:20px;"></div></div>
-
-		<div class="two columns"><ul class="square" style="width:100%;float:left;"><li>PHP</li><li>Javascript</li><li>jQuery</li><li>Twitter Bootstrap</li></ul></div>
-		</div><!-- container -->
+		<div class="six columns">
+			<p>I've always been a fascinated by how this simple set of procedures can create so much complexity. The rules create a delicate balance between life and death, and the result is an eco-system simulation in which complex patterns interact, grow, and die. Besides, who's going to pass up such a great opportunity to play god? </p>
+			<p>Alas, my simulated world is a cruel one. After about 6000 generations it's a pretty desolate universe; populated by just a few spasming pixels. Sorry little guys.</p>
+		</div>
+		<div class="seven columns"><div style="margin-bottom:20px;"><img src="/images/gameoflife.jpg" width="100%"/></div></div>
+		<div class="two columns"><ul class="square"><li>PHP</li><li>Javascript</li><li>jQuery</li><li>Twitter Bootstrap</li></ul></div>
+	</div><!-- container -->
 
 
 
 	<div class="container" style="margin-bottom:60px;">
 		<div class="three columns">
-			<h1 style="font-size: 22px;">Art E-commerce Site</h1>
-			<h4 style="color: #322725; font-style:italic;font-size: 14px;line-height:20px;margin-bottom:2px;">
-			<span style="margin: 5px;">art website</span>
-			</h4>
+			<h1 class="article-title">Art E-commerce Site</h1>
+			<h4 class="article-sub">art website</h4>
 		</div>
-	<div class="five columns">
+		<div class="five columns">
 			<p>Sometimes I paint in my spare time. For a time, I was contemplating the idea of starting a business producing and selling abstract paintings. Though I eventually realized that production-style art might actually be the least appealing avenue for my creativity, the experience drove me to create a full Joomla! website.</p>
 			<p>My time on this project was split evenly between front-end template design, modifying the Joomla! content management system to suit my needs, and writing articles about art.</p>
 		</div>
 		<div class="six columns"><div style="margin-bottom:20px;"><img src="/images/aura.jpg" width="100%"/></div></div>
-
-		<div class="two columns"><ul class="square" style="width:100%;float:left;"><li>PHP</li><li>Joomla! CMS</li><li>MVC</li></ul></div>
-		</div><!-- container -->
+		<div class="two columns"><ul class="square"><li>PHP</li><li>Joomla! CMS</li><li>MVC</li></ul></div>
+	</div><!-- container -->
+	
 	<script type="text/javascript" src="js/underscore.js"></script>
 	<script type="text/javascript" src="js/backbone.js"></script>
 <!-- End Document ================================================== -->
