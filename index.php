@@ -62,22 +62,22 @@
 	<div class="navbar">
 		<div class="container">
 			<div class="sixteen columns">
-				<div class= "navbar-link">
+				<div class= "navbar-link" style="padding-left: 0px;">
 					<h3>Home</h3>
 					<h4 class="navbar-sub">sweet home</h4>
 					<div id="nav-selection-image"></div>
 				</div>
-				<div class="navbar-separator" style="margin-left:24px;margin-right:34px;"></div>
-				<div class= "navbar-link" style="width:100px;">
+				<div class="navbar-separator"></div>
+				<div class= "navbar-link">
 					<h3>Technology</h3>
 					<h4 class="navbar-sub">to-do list</h4>
 				</div>
-				<div class="navbar-separator" style="margin-left:34px;margin-right:18px;"></div>
+				<div class="navbar-separator"></div>
 				<div class= "navbar-link">
 					<h3>About</h3>
 					<h4 class="navbar-sub">me</h4>
 				</div>
-				<div class="navbar-separator" style="margin-left:18px;margin-right:26px;"></div>
+				<div class="navbar-separator"></div>
 				<div class= "navbar-link">
 					<h3>Contact</h3>
 					<h4 class="navbar-sub">by email</h4>
