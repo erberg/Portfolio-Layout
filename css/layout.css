@@ -28,11 +28,13 @@
 
  	.article-container { margin-bottom: 70px; }
  	.article-image { margin-bottom: 20px; }
+ 	.article-image > img { width: 100%; }
  	.article-title { font-size: 22px; margin-bottom:2px; }
  	.article-sub { color: #322725; font-style:italic; font-size: 14px; line-height:20px; margin-left: 5px;}
  	.navbar-link { float: left;padding-top: 16px;text-align: center;padding-left: 30px;padding-right: 30px;}
 	.navbar-sub {letter-spacing: .05em;padding-top: 2px;}
 	.leftfloat { float: left; }
+
  	#tagline { margin-top: 98px; letter-spacing: .05em;}
 	#myname { margin-top: 90px; }
 	#logo { 
@@ -55,7 +57,7 @@
 	height:15px;
 	width:100px;
 	bottom:-20px;
-	left:35px;
+	left:30px;
 	position:absolute;
 	z-index:-1;
 	}

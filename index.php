@@ -52,9 +52,9 @@
 	<div class="header">
 		<div class="sixteen columns">
 		<div class="container">
-		<div id="logo"><img src='images/logo.png' width='72px' height='86px'/></div>
+		<div id="logo"><img src='images/logo.png' alt='Circles and Hexagons' width='72' height='86'/></div>
 		<div class="leftfloat"><h1 id="myname"> ERIC BERG </h1></div>
-		<div class="leftfloat"><h2 id="tagline"><span style="margin:0px 10px;">//</span>web developer</h2></div>
+		<div class="leftfloat"><h2 id="tagline"><span style="margin:0 10;">//</span>web developer</h2></div>
 		</div>
 		</div>
 	</div>
@@ -62,7 +62,7 @@
 	<div class="navbar">
 		<div class="container">
 			<div class="sixteen columns">
-				<div class= "navbar-link" style="padding-left: 0px;">
+				<div class= "navbar-link" style="padding-left: 0;">
 					<h3>Home</h3>
 					<h4 class="navbar-sub">sweet home</h4>
 					<div id="nav-selection-image"></div>
@@ -89,7 +89,7 @@
 
 	<div class="container">
 		<div class="sixteen columns">
-			<h5 id="greeting-header">Hello! </br> 
+			<h5 id="greeting-header">Hello! <br/> 
 				<span id="greeting-sub">I’m a software developer living in Seattle, Washington. I love to code, and I’m always excited to improve my skills and work with new technology. These are some of my most recent projects.</span>
 			</h5>
 		</div>
@@ -105,7 +105,7 @@
 			<p>It's good to be bold. Yes, it takes some confidence to put your images up in large format for all of the internet to see... but I definitely think the payoff is worth it. This is a website I created for just that purpose: to display images as large as possible.</p>
 		    <p>On the more technical side of things, I used this project as an opportunity get a better understanding of the model-view-controller (MVC) pattern. There's no better way to understand something than by building it from scratch, and after having completed this project I'm feeling much more knowledgable about the inner workings of MVC's.</p>
 		</div>
-		<div class="seven columns"><div class="article-image"><img src="/images/folio.jpg" width="100%"/></div></div>
+		<div class="seven columns"><div class="article-image"><img src="/images/folio.jpg" alt="Artist Portfolio Website"/></div></div>
 
 		<div class="two columns"><ul class="square"><li>PHP</li><li>Javascript</li><li>jQuery</li><li>MVC</li><li>MySQL</li></ul></div>
 	</div><!-- container -->
@@ -120,7 +120,7 @@
 			<p>I thought blackjack would be fun to make because it’s a classic that just about everyone knows how to play. It turned out to be very rewarding project, as well as a great way to learn some new and interesting technologies.</p>
 		    <p>The game has positions for up to six players, and there is a card counting button as a bonus feature. You can turn the odds in your favor by modifying your play based upon the count. The live site and source code are also available, if you’re into that sort of thing.</p>
 		</div>
-		<div class="six columns"><div class="article-image"><img src="/images/blackjack.jpg" width="100%"/></div></div>
+		<div class="six columns"><div class="article-image"><img src="/images/blackjack.jpg" alt="Poker Cards and Chips"></div></div>
 		<div class="two columns"><ul class="square"><li>jQuery</li><li>Node.js</li><li>Socket.io</li><li>Twitter Bootstrap</li></ul></div>
 		</div><!-- container -->
 
@@ -133,7 +133,7 @@
 			<p>I've always been a fascinated by how this simple set of procedures can create so much complexity. The rules create a delicate balance between life and death, and the result is an eco-system simulation in which complex patterns interact, grow, and die. Besides, who's going to pass up such a great opportunity to play god? </p>
 			<p>Alas, my simulated world is a cruel one. After about 6000 generations it's a pretty desolate universe; populated by just a few spasming pixels. Sorry little guys.</p>
 		</div>
-		<div class="seven columns"><div class="article-image"><img src="/images/gameoflife.jpg" width="100%"/></div></div>
+		<div class="seven columns"><div class="article-image"><img src="/images/gameoflife.jpg" alt="Random Green Pixels"/></div></div>
 		<div class="two columns"><ul class="square"><li>PHP</li><li>Javascript</li><li>jQuery</li><li>Twitter Bootstrap</li></ul></div>
 	</div><!-- container -->
 
@@ -148,7 +148,7 @@
 			<p>Sometimes I paint in my spare time. For a time, I was contemplating the idea of starting a business producing and selling abstract paintings. Though I eventually realized that production-style art might actually be the least appealing avenue for my creativity, the experience drove me to create a full Joomla! website.</p>
 			<p>My time on this project was split evenly between front-end template design, modifying the Joomla! content management system to suit my needs, and writing articles about art.</p>
 		</div>
-		<div class="six columns"><div class="article-image"><img src="/images/aura.jpg" width="100%"/></div></div>
+		<div class="six columns"><div class="article-image"><img src="/images/aura.jpg" alt="E-Commerce Site"/></div></div>
 		<div class="two columns"><ul class="square"><li>PHP</li><li>Joomla! CMS</li><li>MVC</li></ul></div>
 	</div><!-- container -->
 	
